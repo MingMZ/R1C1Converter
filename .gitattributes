@@ -1,0 +1,6 @@
+*.cs text
+*.csproj text
+*.json text
+*.md text
+*.sln text
+.editorconfig text
