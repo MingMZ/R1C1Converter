@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.9
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BB44FBB9-CF7A-4B82-A967-F22863759D6D}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		LICENSE = LICENSE
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{98475663-6782-4929-9232-4A0D41ADA07B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R1C1Converter", "src\R1C1Converter\R1C1Converter.csproj", "{A2A8FCBA-D11F-4C98-A230-87D13BEFF4B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R1C1Converter.Test", "src\R1C1Converter.Test\R1C1Converter.Test.csproj", "{82343AAB-D8C9-4D3E-AA34-867EC53F6B4E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A2A8FCBA-D11F-4C98-A230-87D13BEFF4B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2A8FCBA-D11F-4C98-A230-87D13BEFF4B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2A8FCBA-D11F-4C98-A230-87D13BEFF4B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2A8FCBA-D11F-4C98-A230-87D13BEFF4B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82343AAB-D8C9-4D3E-AA34-867EC53F6B4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82343AAB-D8C9-4D3E-AA34-867EC53F6B4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82343AAB-D8C9-4D3E-AA34-867EC53F6B4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82343AAB-D8C9-4D3E-AA34-867EC53F6B4E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A2A8FCBA-D11F-4C98-A230-87D13BEFF4B6} = {98475663-6782-4929-9232-4A0D41ADA07B}
+		{82343AAB-D8C9-4D3E-AA34-867EC53F6B4E} = {98475663-6782-4929-9232-4A0D41ADA07B}
+	EndGlobalSection
+EndGlobal

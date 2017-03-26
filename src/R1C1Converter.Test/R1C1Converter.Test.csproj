@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Authors>MingMZ</Authors>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <Copyright>Copyright (c) MingMZ. All rights reserved. Licensed under the MIT license. See LICENSE file in the project root for full license information.</Copyright>
+    <Description />
+    <FileVersion>1.0.0.0</FileVersion>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+    <Version>1.0.0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.0.0" />
+    <PackageReference Include="xunit" Version="2.2.0" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.2.0" />
+    <ProjectReference Include="..\R1C1Converter\R1C1Converter.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Service Include="{82a7f48d-3b50-4b1e-b82e-3ada8210c358}" />
+  </ItemGroup>
+
+</Project>

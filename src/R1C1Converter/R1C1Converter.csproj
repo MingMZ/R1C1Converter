@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <Authors>MingMZ</Authors>
+    <Copyright>Copyright (c) MingMZ. All rights reserved. Licensed under the MIT license. See LICENSE file in the project root for full license information.</Copyright>
+    <Description>.NET library to convert between A1 and R1C1 reference styles used in Excel document</Description>
+    <FileVersion>1.0.0.0</FileVersion>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>excel;r1c1</PackageTags>
+    <PackageId>R1C1Converter</PackageId>
+    <Product>R1C1Converter</Product>
+    <TargetFramework>netstandard1.4</TargetFramework>
+    <Version>1.0.0</Version>
+  </PropertyGroup>
+
+</Project>
